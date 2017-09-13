@@ -4,7 +4,7 @@
 
 body {
 	padding: 1rem .5rem;
-	font-size: 2.5rem;
+	font-size: 1.3rem;
 	line-height: 1.2;
 	max-width: 60rem;
 	margin: 0 auto;
@@ -41,7 +41,7 @@ img {
 }
 
 .ImageCaption {
-	font-size: .75rem;
+	font-size: 1.5rem;
 	position: absolute;
 	bottom: .5rem;
 	right: 1rem;
