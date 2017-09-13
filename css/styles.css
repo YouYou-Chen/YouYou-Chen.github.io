@@ -18,12 +18,12 @@ img {
 .Header {
 	text-align: center;
 	border-bottom: 8px double #f9f9f9;
-	margin-bottom: 5rem;
-	padding-bottom: 6rem;
+	margin-bottom: 2rem;
+	padding-bottom: 1rem;
 }
 
 .Strap {
-	font-size: 1rem;
+	font-size: 5rem;
 }
 
 
