@@ -41,9 +41,9 @@ img {
 }
 
 .ImageCaption {
-	font-size: 1.5rem;
+	font-size: 5.5rem;
 	position: absolute;
-	bottom: .5rem;
+	bottom: 1.5rem;
 	right: 1rem;
 }
 
