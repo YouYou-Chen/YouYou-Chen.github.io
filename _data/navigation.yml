@@ -1,6 +1,11 @@
 # Site navigation links
 
-- title:
-  url:
-  excerpt:
-  image:
+- title: 读书笔记
+  url: /Student/
+  excerpt: "含网页设计与制作和信息可视化的读书笔记"
+  image: 
+  
+- title: 作品集
+  url: /Student/
+  excerpt: "含网页设计与制作和信息可视化的作品"
+  image: 
