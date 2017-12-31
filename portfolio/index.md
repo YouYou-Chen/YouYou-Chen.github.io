@@ -1,6 +1,6 @@
 ---
 layout: archive
-title:  "网页设计作品"
+title:  "网页设计作品集"
 date: 2017-12-31
 modified:
 excerpt: "第一次作业"
