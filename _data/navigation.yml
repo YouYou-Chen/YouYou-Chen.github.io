@@ -6,6 +6,11 @@
   image: 
   
 - title: 作品集
-  url: /Student/
+  url: /production/
   excerpt: "含网页设计与制作和信息可视化的作品"
+  image: 
+  
+- title: 联络我
+  url: /contact/
+  excerpt: "联络我"
   image: 
