@@ -1,14 +1,24 @@
 # Site navigation links
 
-- title: 读书笔记
-  url: /Student/
-  excerpt: "含网页设计与制作和信息可视化的读书笔记"
+- title: 网页设计读书笔记
+  url: /Web/
+  excerpt: "含RWD2和WSG4的笔记"
   image: 
   
-- title: 作品集
+- title: 网页设计与制作作品集
   url: /production/
-  excerpt: "含网页设计与制作和信息可视化的作品"
+  excerpt: "网页作品"
   image: 
+
+- title: 信息可视化读书笔记
+  url: /Tableau/
+  excerpt: "含Tableau教程视频笔记"
+  image: 
+
+- title: 信息可视化作品集
+  url: /productions/
+  excerpt: "信息可视化作品"
+  image:
   
 - title: 联络我
   url: /contact/
