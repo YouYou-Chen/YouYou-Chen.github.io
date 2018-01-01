@@ -3,14 +3,14 @@ layout: archive
 title:  "网页设计作品集"
 date: 2017-12-31
 modified:
-excerpt: "第一次作业"
+excerpt: "网页作品"
 tags: []
 image: 
-  feature: Portfolio.svg
+  feature: production.jpg
   teaser:
 ---
 
-第一次作业
+在此展示网页作品
 
 <div class="tiles">
 {% for post in site.categories.portfolio %}

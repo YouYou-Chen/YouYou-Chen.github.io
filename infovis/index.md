@@ -1,19 +1,19 @@
 ---
 layout: archive
-title: "可持续发展目标"
+title: "信息可视化笔记"
 date: 2017-12-30T11:40:45-04:00
 modified:
-excerpt: "可持续发展，含＂生态文明＂倡议"
+excerpt: "含Tableau教程视频笔记"
 tags: []
 image: 
-  feature: 300x200.gif
+  feature: Tableau.jpg
   teaser:
 ---
 
-在此展示可持续发展目标内容简绍及思考
+在此展示Tableau教程视频笔记
 
 <div class="tiles">
 {% for post in site.categories.SDG %}
   {% include post-grid.html %}
 {% endfor %}
-</div><!-- /.tiles 把所有categories 有 SDG 的列出来-->
+</div><!-- /.tiles 把所有categories 有 infovis 的列出来-->
