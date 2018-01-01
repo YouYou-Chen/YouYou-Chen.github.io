@@ -13,7 +13,7 @@ image:
 在此展示RWD2和WSG4的笔记
 
 <div class="tiles">
-{% for post in site.categories.SDG %}
+{% for post in site.categories.RWD %}
   {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles 把所有categories 有 RWD 的列出来-->
