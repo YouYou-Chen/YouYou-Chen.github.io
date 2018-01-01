@@ -6,7 +6,7 @@ modified:
 excerpt: "含RWD2和WSG4的笔记"
 tags: []
 image: 
-  feature: Web.jpg
+  feature: 
   teaser:
 ---
 
