@@ -37,17 +37,17 @@
   z-index: 20;
   box-sizing: border-box;
   &:hover {
-    background: $red;
+    background: $black;
   }
   transition: $sliding-menu-animation;
   &.slide {
     background: $danger-color;
     transform: translateX(0); /* don't slide close button on small screens only */
     @include media($medium) {
-      transform: translateX(em(-600)); 
+      transform: translateX(em(-600)); /* reset slide position */
     }
     @include media($large) {
-      transform: translateX(em(-900)); 
+      transform: translateX(em(-900)); /* reset slide position */
     }
   }
 }
@@ -133,7 +133,7 @@
       left: 0;
       margin-bottom: 0;
       width: 50px;
-      border: 1px solid $white;
+      border: 2px solid $white;
       margin-bottom: ($gutter / 2);
       opacity: 0.6;
       @include media($small) {
@@ -142,7 +142,6 @@
     }
     a:hover .teaser {
       opacity: 1;
-	  border: 3px solid $red;
     }
     .title {
       display: block;
@@ -163,8 +162,6 @@
         margin-left: 170px;
         @include font-size(16,no);
       }
-	  .title:hover,.excerpt:hover,.teaser:hover{
-	      color:$red;
     }
   }
   .sub-menu-item > li a {

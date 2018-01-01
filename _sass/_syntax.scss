@@ -19,6 +19,7 @@ pre.highlight {
 .linenodiv {
   @include font-size(16);
 }
+
 .highlight {
 	overflow-x: auto;
 	@include font-size(16);
@@ -30,11 +31,8 @@ pre.highlight {
 		padding: 1em;
 	}
 	&:hover {
-		border: 3px solid $form-border-color-hover;
-		background-color:$black;
-		color: $white;
+		border: 1px solid $form-border-color-hover;
 	}
-	background-color: $white;
 }
 
 .highlighttable {
