@@ -6,7 +6,7 @@ modified:
 excerpt: "含Tableau教程视频笔记"
 tags: []
 image: 
-  feature: Tableau.jpg
+  feature: 
   teaser:
 ---
 
