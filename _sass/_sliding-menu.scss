@@ -47,7 +47,7 @@
       transform: translateX(em(-600)); /* reset slide position */
     }
     @include media($large) {
-      transform: translateX(em(-900)); /* reset slide position */
+      transform: translateX(em(-500)); /* reset slide position */
     }
   }
 }
@@ -137,7 +137,7 @@
       margin-bottom: ($gutter / 2);
       opacity: 0.6;
       @include media($small) {
-        width: 130px;
+        width: 110px;
       }
     }
     a:hover .teaser {
@@ -148,7 +148,7 @@
       margin-left: 60px;
       font-family: $alt-font;
       @include font-size(24,no);
-      font-weight: 700;
+      font-weight: 300;
       @include media($small) {
         margin-left: 170px;
         @include font-size(32,no);
