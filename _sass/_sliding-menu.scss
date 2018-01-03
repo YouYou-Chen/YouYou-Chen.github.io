@@ -150,7 +150,7 @@
       @include font-size(24,no);
       font-weight: 300;
       @include media($small) {
-        margin-left: 170px;
+        margin-left: 120px;
         @include font-size(32,no);
       }
     }
@@ -159,7 +159,7 @@
       margin-left: 60px;
       @include font-size(14,no);
       @include media($small) {
-        margin-left: 170px;
+        margin-left: 120px;
         @include font-size(16,no);
       }
     }
