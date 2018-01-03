@@ -29,7 +29,7 @@
   display: block;
   width: $button-size * 2;
   height: $button-size * 2;
-  background: $lightgreen-color;
+  background: $primary-color;
   outline: 0;
   padding: 0;
   border: 2.5px solid transparent;
@@ -66,10 +66,10 @@
   text-align: left;
   @include size(100% 100%);
   @include media($small) {
-    width: em(600);
+    width: em(520);
   }
   @include media($large) {
-    width: em(900);
+    width: em(662);
   }
   transform: translateX(100%);
   transition: $sliding-menu-animation;
