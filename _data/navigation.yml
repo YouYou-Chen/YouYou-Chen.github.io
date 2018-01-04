@@ -1,9 +1,9 @@
 # Site navigation links
 
 - title: 学习笔记
-  url: /study/
+  url: /post/
   excerpt: "含网页设计和信息可视化的笔记"
-  image: study.gif  
+  image: post.gif  
 
 - title: 信息可视化作品集
   url: /infovis/

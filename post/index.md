@@ -13,7 +13,7 @@ image:
 在此展示网页设计与信息可视化的笔记
 
 <div class="tiles">
-{% for post in site.categories.study %}
+{% for post in site.categories.post %}
   {% include post-grid.html %}
 {% endfor %}
-</div><!-- /.tiles 把所有categories 有 study 的列出来-->
+</div><!-- /.tiles 把所有categories 有 post 的列出来-->
