@@ -1,9 +1,9 @@
 ---
 layout: archive
-title: "信息可视化笔记"
+title: "信息可视化作品集"
 date: 2017-12-30T11:40:45-04:00
 modified:
-excerpt: "含Tableau教程视频笔记"
+excerpt: 
 tags: []
 image: 
   feature: 
