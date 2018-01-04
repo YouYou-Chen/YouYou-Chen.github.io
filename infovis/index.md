@@ -10,7 +10,7 @@ image:
   teaser:
 ---
 
-在此展示Tableau教程视频笔记
+在此展示信息可视化作品
 
 <div class="tiles">
 {% for post in site.categories.infovis%}
