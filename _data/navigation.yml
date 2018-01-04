@@ -1,7 +1,7 @@
 # Site navigation links
 
 - title: 学习笔记
-  url: /post/
+  url: /_posts/
   excerpt: "含网页设计和信息可视化的笔记"
   image: post.gif  
 
