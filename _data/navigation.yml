@@ -1,18 +1,18 @@
 # Site navigation links
 
 - title: 学习笔记
-  url: /post/
+  url: /posts/post/
   excerpt: "含网页设计和信息可视化的笔记"
   image: post.gif  
 
 - title: 信息可视化作品集
-  url: /infovis/
+  url: /posts/infovis/
   excerpt: "信息可视化作品"
   image: infovis.gif
 
   
 - title: 网页设计作品集
-  url: /portfolio/
+  url: /posts/portfolio/
   excerpt: "网页作品"
   image: portfolio.gif
   
