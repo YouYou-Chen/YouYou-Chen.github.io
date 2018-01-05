@@ -5,4 +5,5 @@ gem "jekyll"
 gem "jekyll-sitemap"
 gem "jekyll-gist"
 gem "jekyll-feed"
-gem 'github-pages'
+gem "github-pages"
+gem "jekyll-mermaid"
