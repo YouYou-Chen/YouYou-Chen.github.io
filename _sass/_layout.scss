@@ -55,6 +55,8 @@
 			padding: (.25 * $masthead-height) 0 (.25 * $masthead-height) ;
 			height: $masthead-height;
 			font-family: $alt-font;
+			@include transition(color 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55));
+			@include transition(background-color 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55));
 			&:before,
 			&:after {
 				content: '';
@@ -62,8 +64,8 @@
 				position: absolute;
 				top: 0;
 				left: 0;
-				height: 2px;
-				@include transition(width 0.3s);
+				height: 3px;
+				@include transition(width 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55));
 			}
 			&:before {
 				width: 100%;
@@ -71,11 +73,15 @@
 			}
 			&:after {
 				width: 0;
-				background: $black;
+				background-color: $oxfordblue;
 			}
 			&:active:after,
 			&:hover:after {
 				width: 100%;
+			}
+			&:hover {
+				color: $oxfordblue;
+				background-color: $lemon;
 			}
 		}
 	}
@@ -145,7 +151,7 @@
 #main {
 	.inner-wrap {
 		@include media($medium) {
-			@include span-columns(9);
+			@include span-columns(11);
 		}
 	}
 	.page-title {
@@ -267,16 +273,33 @@
 // page header
 .page-feature {
 	@include fill-parent;
-	// expand image to cover full width of header
+	// expand image to cover full width of header--
+	// instead,using auto, max-width
 	img {
-		width: 100%;
+		width: auto;
+		max-width: 100%;
+		@include media($medium) {
+			max-width: 50%;
+		}
+		@include media($large) {
+			max-width: 33%;
+		}
+
 	}
 }
-// make image flush with edges on small screens
+// make image flush with edges on small screens (only when)
 .page-image {
 	position: relative;
 	margin-left: -1 * $gutter;
 	margin-right: -1 * $gutter;
+		@include media($medium) {
+			margin-left: 0;
+			margin-right: 0;
+		}
+		@include media($large) {
+			margin-left: 0;
+			margin-right: 0;
+		}
 	// feature image caption
 	.image-credit {
 		position: absolute;
@@ -347,5 +370,60 @@
 			color: lighten($black,60);
 			text-decoration: none;
 		}
+	}
+}
+
+
+
+/*
+   Printer Setup
+   ========================================================================== */
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+    #masthead,nav, button, html [type=button], .menu-screen {
+        display: none;
+    }
+    html, body {
+        width: 210mm;
+        height: 297mm;
+        margin: 0;
+        padding: 0;
+        border: 1px #D3D3D3 solid;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    #page-wrapper {
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+        max-width: 190mm;
+        min-height: 250mm;
+        max-height: 256mm;
+        padding: 10mm;
+        margin: 20mm auto;
+		border: 1px white dotted;
+		height: 256mm;
+		outline: 2cm #cbecff solid;
+	}
+
+
+
+		
+    p {
+	    font-size: 0.625rem !important;		
+	}
+	h1 {
+	    font-size: 1rem !important;		
+	}
+	h2, h3, h4, h5, h6 {
+	    font-size: 0.75rem !important;		
 	}
 }
