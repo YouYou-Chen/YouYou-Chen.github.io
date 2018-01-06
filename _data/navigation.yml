@@ -1,19 +1,21 @@
 # Site navigation links
 
-- title: 学习笔记
-  url: /posts/post/
-  excerpt: "含网页设计和信息可视化的笔记"
-  image: post.gif  
-
 - title: 信息可视化作品集
-  url: /posts/infovis/
+  url: /infovis/
   excerpt: "信息可视化作品"
   image: infovis.gif
-
   
 - title: 网页设计作品集
-  url: /posts/portfolio/
+  url: /portfolio/
   excerpt: "网页作品"
   image: portfolio.gif
   
+- title: 网页设计笔记
+  url: /posts/rwd/
+  excerpt: "含RWD和WSG4的笔记"
+  image: rwd.gif    
   
+- title: 信息可视化笔记
+  url: /posts/infovis/
+  excerpt: "含Tableau的笔记"
+  image: tableau.gif  
