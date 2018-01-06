@@ -6,7 +6,7 @@ modified:
 excerpt: 
 tags: []
 image: 
-  feature: portfolio.gif
+  feature: 
   teaser:
 ---
 

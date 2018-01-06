@@ -6,7 +6,7 @@ modified:
 excerpt: 
 tags: []
 image: 
-  feature: rwd.gif
+  feature: 
   teaser:
 ---
 
