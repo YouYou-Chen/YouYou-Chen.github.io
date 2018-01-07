@@ -10,7 +10,7 @@ image:
   teaser:
 ---
 #### 期末高德地图
-- <a href="https://public.tableau.com/views/_18268/_?:embed=y&:display_count=yes" target="_blank">![数据分析.png](https://i.loli.net/2018/01/07/5a51f9c08f8af.jpg)</a>
+- <a href="https://public.tableau.com/views/_18268/_?:embed=y&:display_count=yes" target="_blank">![数据分析.png](https://i.loli.net/2018/01/07/5a51fdb7bab63.jpg)</a>
 <div class="tiles">
 {% for post in site.categories.infovis%}
   {% include post-grid.html %}
