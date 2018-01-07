@@ -38,7 +38,7 @@ g#bell {
   </style>
 
 <div id="wcylogo" >
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="65%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="55%">
 <defs>
         <radialGradient id = "gg" cx = "50%" cy = "60%" r = "50%">
             <stop stop-color = "#0a67a1" offset = "50%"/>
