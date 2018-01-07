@@ -9,6 +9,8 @@ tags: []
 ---
 文传学院徽章钟摆
 ---
+- <a href="https://YouYou-Chen.github.io/wcylogo/" target="_blank">![数据分析.jpg](https://i.loli.net/2018/01/07/5a52106249040.jpg)</a>
+
   <style>
 g#bell {
     animation-play-state: running;
