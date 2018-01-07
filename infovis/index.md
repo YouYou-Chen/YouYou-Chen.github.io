@@ -12,8 +12,7 @@ image:
 
 # 期末高德地图
 
-- <a href="https://public.tableau.com/views/_18268/_?:embed=y&:display_count=yes" target="_blank">![数据分析.png](https://i.loli.net/2018/01/07/5a51f09bb3d24.png
-)</a>
+- <a href="https://public.tableau.com/views/_18268/_?:embed=y&:display_count=yes" target="_blank">![数据分析.png](https://i.loli.net/2018/01/07/5a51f31368e15.jpg)</a>
 
 
 <div class="tiles">
