@@ -7,10 +7,6 @@ excerpt:
 tags: []
 
 ---
-文传学院徽章钟摆
----
-- <a href="https://YouYou-Chen.github.io/portfolio/wcylogo/" target="_blank">![文传.jpg](https://i.loli.net/2018/01/07/5a5215268752c.jpg)</a>
-
 
 <div class="tiles">
 {% for post in site.categories.portfolio %}
