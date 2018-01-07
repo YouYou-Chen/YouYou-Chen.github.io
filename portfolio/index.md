@@ -5,13 +5,9 @@ date: 2018-1-1T14:25:45-04:00
 modified:
 excerpt: 
 tags: []
-image: 
-  feature: 
-  teaser:
+
 ---
-
 文传学院徽章钟摆
-
 ---
   <style>
 g#bell {
@@ -84,8 +80,6 @@ g#bell {
 </g>
 </svg>
 </div>
-
-
 <div class="tiles">
 {% for post in site.categories.portfolio %}
   {% include post-grid.html %}
