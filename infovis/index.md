@@ -10,7 +10,7 @@ image:
   teaser:
 ---
 #### 期末高德地图
-<a href="https://YouYou-Chen.github.io/infovis/b" target="_blank">![数据分析.jpg](https://i.loli.net/2018/01/23/5a67183406d0f.jpg)</a>
+<a href="https://public.tableau.com/views/_18806/sheet4?publish=yes" target="_blank">![数据分析.jpg](https://i.loli.net/2018/01/23/5a67183406d0f.jpg)</a>
 <div class="tiles">
 {% for post in site.categories.infovis%}
   {% include post-grid.html %}
